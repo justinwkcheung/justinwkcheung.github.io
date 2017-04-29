@@ -1,17 +1,31 @@
 a.top-words:link {
-  color: rgb(250,50,100)
+  color: white;
 }
 
 a.top-words:visited {
-  color: rgb(250,50,100);
+  color: white;
+  text-decoration: none;
 }
 
 a.top-words:hover {
- color: rgb(50,50,50);
  text-decoration: none;
- background-color: rgb(250,50,100);
+ background-color: yellow;
+ color: grey;
  padding: 5px;
-}
+ }
+
+ a.social-links:link {
+   color: white;
+ }
+
+ a.social-links:visited {
+   color: white;
+ }
+
+ a.social-links:hover {
+   color: rgb(50,50,50);
+   text-decoration: none;
+ }
 
 h2 {
   color:rgb(250,50,100);
@@ -20,7 +34,7 @@ h2 {
 .container-fluid {
   background-image: url("../Images/light.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: right center;
 }
 
 .col-md-2 {
@@ -28,8 +42,12 @@ h2 {
 }
 
 .top-bar {
-  background-color: rgb(50,50,50);
+  /*background-color: rgb(50,50,50);*/
   font-family: 'Montserrat', sans-serif;
+}
+
+.spanslash {
+  color: white;
 }
 
 .name-bar {
@@ -42,8 +60,9 @@ h2 {
 
 .right-bar {
   font-size: 20px;
-  margin-top: 23px;
-  text-align: right;
+  margin-top: 5px;
+  text-align: left;
+  float: left;
 }
 
 .my-name {
@@ -82,7 +101,6 @@ h2 {
 .icons {
   border-radius: 50px;
   font-size: 50px;
-  color: rgb(240,240,240);
 }
 
 .social-row {
