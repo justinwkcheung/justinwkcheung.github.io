@@ -1,0 +1,166 @@
+a.top-words:link {
+  color: rgb(250,50,100)
+}
+
+a.top-words:visited {
+  color: rgb(250,50,100);
+}
+
+a.top-words:hover {
+ color: rgb(50,50,50);
+ text-decoration: none;
+ background-color: rgb(250,50,100);
+ padding: 5px;
+}
+
+h2 {
+  color:rgb(250,50,100);
+}
+
+.container-fluid {
+  background-image: url("../Images/light.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.col-md-2 {
+  text-align: right;
+}
+
+.top-bar {
+  background-color: rgb(50,50,50);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name-bar {
+  text-align: center;
+}
+
+.portfolio-bar {
+  margin-right: -4%;
+}
+
+.right-bar {
+  font-size: 20px;
+  margin-top: 23px;
+  text-align: right;
+}
+
+.my-name {
+  font-size: 95px;
+  font-weight: 600;
+  margin-top: 200px;
+  color: white;
+  letter-spacing: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+.style1{
+	border-top: 1px solid #8c8b8b;
+  margin-top:30px;
+  width:70%;
+}
+.pagestyle1 {
+  padding-bottom:200px;
+}
+.img-circle {
+  border-radius:50%;
+}
+.quotestyle {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 2rem 3rem;
+}
+
+.icons {
+  border-radius: 50px;
+  font-size: 50px;
+  color: rgb(240,240,240);
+}
+
+.social-row {
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size:60px;
+  margin-top:50px;
+  color:rgb(240,240,240);
+  font-family: 'Montserrat', sans-serif;
+}
+.pagestyle2 {
+  background-color:rgb(120,120,120);
+}
+.portfolio-style {
+  margin-top:65px;
+}
+.portfolio-style2 {
+  margin-top:100px;
+  padding-bottom:100px;
+}
+.about-title {
+  font-size:60px;
+  margin-top:50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.profilepic {
+  border-radius:50%;
+  margin-top:105px;
+  margin-botton:10px;
+}
+.description {
+  font-size:28px;
+  margin-left:20%;
+  margin-top:100px;
+  margin-bottom:10px;
+}
+.about-page {
+  margin-bottom:250px;
+}
+.contact-page {
+  background-color:rgb(180,180,120);
+
+}
+.contact-title {
+  font-size:60px;
+  margin-top:50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-description {
+  font-size:28px;
+  margin-top:90px;
+  margin-bottom:10px;
+  margin-right:21%;
+}
+.form-style {
+  margin-top:80px;
+  max-width:500px;
+  margin-left:10%;
+}
+.contact-style {
+  margin-bottom:100px;
+}
+.footer-bar {
+  background-color:rgb(50,50,50);
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(250,50,100);
+}
+
+/*#page1 {
+  background: rgba(20,20,20,0.2);
+}*/
+
+@media (max-width: 1000px) {
+  .right-bar {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+}
