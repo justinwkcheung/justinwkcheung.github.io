@@ -31,10 +31,11 @@ h2 {
   color:rgb(250,50,100);
 }
 
-.container-fluid {
+#container-1 {
   background-image: url("../Images/light.jpg");
   background-size: cover;
   background-position: right center;
+  background-attachment: fixed;
 }
 
 .col-md-2 {
@@ -157,24 +158,27 @@ h2 {
 
 }
 .contact-title {
-  font-size:60px;
-  margin-top:50px;
+  font-size:45px;
+  font-weight: 600;
+  margin-top:80px;
+  margin-bottom: 100px;
+  letter-spacing: 10px;
+  color:rgb(240,240,240);
   font-family: 'Montserrat', sans-serif;
 }
 .contact-description {
   font-size:28px;
-  margin-top:90px;
-  margin-bottom:10px;
-  margin-right:21%;
+  color:rgb(240,240,240);
+
+  /*margin-top:90px;*/
+  /*margin-bottom:10px;*/
 }
-.form-style {
+/*.form-style {
   margin-top:80px;
   max-width:500px;
   margin-left:10%;
-}
-.contact-style {
-  margin-bottom:100px;
-}
+}*/
+
 .footer-bar {
   background-color:rgb(50,50,50);
   font-family: 'Montserrat', sans-serif;
@@ -194,6 +198,39 @@ h2 {
   width: 100%;
   background-color: white;
 }
+
+#page4 {
+  height: 100vh;
+  background-color:rgba(36,36,36,0.5);
+}
+
+#container-4 {
+  background-image: url("../Images/light.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: rgb(214,138,114);
+    text-decoration: none;
+}
+
 
 @media (max-width: 1000px) {
   .right-bar {
