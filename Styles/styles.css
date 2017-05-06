@@ -201,6 +201,10 @@ h2 {
   color:rgb(250,50,100);
 }
 
+.yellow {
+  color: yellow;
+}
+
 #page1 {
   height: 100vh;
 }
@@ -389,4 +393,5 @@ h2 {
     right: 40%;
     top: 25%;
   }
+
 }

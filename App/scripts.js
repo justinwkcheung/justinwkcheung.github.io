@@ -22,6 +22,17 @@ $(document).ready(function(){
       }
   }
 
+
+  // window.setInterval(function(){
+  //   // $('.my-name').effect( "shake" ).toggleClass('yellow');
+  //   $('.my-name').effect( "pulsate" );
+  // }, 5000);
+
+  $('.my-name').mouseover(function(){
+    $('.my-name').effect( "pulsate" );
+  });
+
+
   // When the user clicks on the button, scroll to the top of the document
   // function topFunction() {
   //     document.body.scrollTop = 0; // For Chrome, Safari and Opera
