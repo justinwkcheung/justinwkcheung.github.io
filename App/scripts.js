@@ -28,11 +28,28 @@ $(document).ready(function(){
   //   $('.my-name').effect( "pulsate" );
   // }, 5000);
 
+  // $('.my-name').mouseover(function(){
+  //   $('.my-name').effect( "pulsate" );
+  //   window.setTimeout(function(){
+  //     if (!$('.my-name').is('.opac1, .opac2, .opac3, .opac4')) {
+  //
+  //       $('.my-name').addClass('opac1');
+  //     }
+  //     else if ($('.my-name').hasClass('opac1')) {
+  //       $('.my-name').removeClass('opac1').addClass('opac2');
+  //     }
+  //     else if ($('.my-name').hasClass('opac2')) {
+  //       $('.my-name').removeClass('opac2').addClass('opac3');
+  //     }
+  //     else if ($('.my-name').hasClass('opac3')) {
+  //       $('.my-name').addClass('opac4');
+  //     }
+  //   }, 400);
+  // });
+
   $('.my-name').mouseover(function(){
     $('.my-name').effect( "pulsate" );
-    window.setTimeout(function(){
-      $('.my-name').toggleClass('yellow');
-    }, 400);
+    $('.my-name').toggleClass('opac', 2000)
   });
 
 
