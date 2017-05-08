@@ -30,6 +30,9 @@ $(document).ready(function(){
 
   $('.my-name').mouseover(function(){
     $('.my-name').effect( "pulsate" );
+    window.setTimeout(function(){
+      $('.my-name').toggleClass('yellow');
+    }, 400);
   });
 
 
