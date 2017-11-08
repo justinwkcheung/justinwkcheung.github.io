@@ -1,3 +1,5 @@
+@font-face { font-family: Inception; src: url('../Fonts/Inception_free.ttf'); }
+
 a.top-words:link {
   color: white;
 }
@@ -68,12 +70,12 @@ h2 {
 }
 
 .my-name {
-  font-size: 95px;
-  font-weight: 600;
+  font-size: 105px;
+  /*font-weight: 600;*/
   margin-top: 200px;
   color: white;
   letter-spacing: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inception', sans-serif;
 }
 .col-centered {
   float: none;
@@ -111,7 +113,9 @@ h2 {
 
 .portfolio-title {
   font-size:45px;
-  font-weight: 600;
+  margin-bottom: 0px;
+
+  /*font-weight: 600;*/
   margin-top:80px;
   margin-bottom: 80px;
   letter-spacing: 10px;
@@ -150,7 +154,7 @@ h2 {
 
 .about-title {
   font-size:45px;
-  font-weight: 600;
+  /*font-weight: 600;*/
   margin-top:80px;
   letter-spacing: 10px;
   font-family: 'Montserrat', sans-serif;
@@ -175,7 +179,7 @@ h2 {
 }
 .contact-title {
   font-size:45px;
-  font-weight: 600;
+  /*font-weight: 600;*/
   margin-top:80px;
   margin-bottom: 100px;
   letter-spacing: 10px;
@@ -291,7 +295,7 @@ h2 {
 }
 
 #container-4 {
-  background-image: url("../Images/light.jpg");
+  background-image: url("../Images/clouds.jpg");
   background-size: cover;
   background-position: right center;
   background-attachment: fixed;
@@ -355,6 +359,10 @@ h2 {
     text-align: center;
   }
 
+  #page3 {
+    height: 100%;
+  }
+
   #port-2 h1 {
     display: block !important;
     color: grey;
@@ -370,10 +378,6 @@ h2 {
     position: absolute;
     right: 46px;
     top: -5%;
-  }
-
-  .portfolio-title {
-    margin-bottom: 0px;
   }
 
   #port-1 {
