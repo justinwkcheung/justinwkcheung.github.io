@@ -2,6 +2,7 @@
 
 a.top-words:link {
   color: white;
+  padding: 5px;
 }
 
 a.top-words:visited {
